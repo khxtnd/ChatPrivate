@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+    <RelativeLayout
+        android:id="@+id/relativeLayoutMA"
+        android:background="@color/mau_vang"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="70dp">
+        <TextView
+            android:id="@+id/tvUserNameMA"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:text="Tên người dùng"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImgMA"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/logo_user" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleViewMA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayoutMA"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

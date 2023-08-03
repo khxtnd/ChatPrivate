@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "76051220927",
+    "project_id": "chatprivate-c4bae",
+    "storage_bucket": "chatprivate-c4bae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76051220927:android:d3045ad0349d45004c790a",
+        "android_client_info": {
+          "package_name": "com.chatprivate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76051220927-g59d9i2d8pb8j1dte9v2se1umrf4faak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3_oQuTNSF3SeLo0YpgPwyXyVvv5aojFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76051220927-g59d9i2d8pb8j1dte9v2se1umrf4faak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
